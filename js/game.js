@@ -837,7 +837,7 @@ window.LEVEL_CONFIG = [
 			{x:0,y:150,radius:100},
 			{x:300,y:150,radius:100}
 		],
-		countdown:70
+		countdown:60
 	},
 
 	// HEART
