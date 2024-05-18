@@ -27,15 +27,16 @@
 		Key["up"] = false; // Down
 		Key["down"] = false; // Up
 		
-		if(deltaX > 10) {
+		var di = 20
+		if(deltaX > di) {
 			Key["right"] = true; // Right
-		} else if(deltaX < -10) {
+		} else if(deltaX < -di) {
 			Key["left"] = true; // Left
 		}
 
-		if(deltaY > 10) {
+		if(deltaY > di) {
 			Key["down"] = true;  // Down
-		} else if(deltaY < -10) {
+		} else if(deltaY < -di) {
 			Key["up"] = true;  // Up
 		}
 
