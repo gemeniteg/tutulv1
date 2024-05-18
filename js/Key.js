@@ -27,7 +27,7 @@
 		Key["up"] = false; // Down
 		Key["down"] = false; // Up
 		
-		var di = 1000
+		var di = 50
 		if(deltaX > di) {
 			Key["right"] = true; // Right
 		} else if(deltaX < -di) {
