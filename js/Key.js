@@ -14,7 +14,7 @@
 
 		if (window.STAGE == 4) return;
 		event.stopPropagation();
-		event.preventDefault();
+		//event.preventDefault();
 	}
 
 	var onTouchMove = function(event){
@@ -43,7 +43,7 @@
 		
 		if (window.STAGE == 4) return;
 		event.stopPropagation();
-		event.preventDefault();
+		//event.preventDefault();
 	}
 
 	
@@ -55,7 +55,7 @@
 		Key["down"] = false; // Up
 		if (window.STAGE == 4) return;
 		event.stopPropagation();
-		event.preventDefault();
+		//event.preventDefault();
 	}
 
 	window.addEventListener("touchstart", onTouchStart, false);
