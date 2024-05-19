@@ -74,9 +74,9 @@ canvas{
 	height: 550px;
 	margin: auto;
 	position: absolute;
-	top: 0;
-
-	font-size: 25px;
+	top: 30px;
+	left: 30px;
+	font-size: 35px;
 
 	text-align: left;
 }
