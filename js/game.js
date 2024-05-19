@@ -743,7 +743,7 @@ function iHeartYou(){
 	if(window.location.hash){
 		vtext.textContent = encryptString(decodeURIComponent(window.location.hash).substring(1));
 	}else{
-		vtext.textContent = "祝兔兔520快乐！ - ❤️爱你的嘉嘉";
+		vtext.textContent = "520快乐,兔兔 - ❤️爱你的嘉嘉";
 	}
 
 	setTimeout(function(){
